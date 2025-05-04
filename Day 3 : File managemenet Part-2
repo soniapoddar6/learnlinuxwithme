@@ -1,0 +1,13 @@
+To create a file using vi --> vi filename
+To insert a line in the file using vi --> press i (after running vi filename command)
+To save and quit from the vi editor to linux terminal ---> Esc+: then press wq! (It will save the content written in the file and quit to get back to the linux terminal)
+To move (left,right,up and down to the vi editor) using the short cut keys---> after entering in vi editor to move right use 'l' key, 
+                                                                                                           to move left use 'h' key, 
+                                                                                                           to move up use 'k' key, 
+                                                                                                           to move down use 'j' key
+To view the contents in file : cat filename
+To view the contents along with line number : cat -b filename
+To view the total word count along with other details : wc filename (where 1st column shows total word count
+                                                                           2nd column shows total line count
+                                                                           3rd column shows total size in bytes of the file
+                                                                           4th column shows filename)
